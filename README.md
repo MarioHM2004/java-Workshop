@@ -6,10 +6,26 @@ Hello programmers!! Welcome to this "Introduction to Java" workshop. This worksh
 
 Java is a widely-used, high-level programming language known for its portability, versatility, and robustness. It is commonly used for developing various types of applications, including web applications, mobile apps (Android), desktop GUI applications, enterprise software, and more. Java is an object-oriented programming language, meaning it focuses on creating objects that contain both data and methods to manipulate that data.
 
-#  prerequisites - Install Java
+##  prerequisites - Install Java
+
 ![image](https://github.com/MarioHM2004/java-Workshop/assets/114911961/b9ce410a-9b0e-4999-aefb-c36f2d43a5a1)
-Installing Java is very easy! You just need to download and install the latest JDK from here: 
+
+Installing Java is very easy! You just need to install the Java Development Kit (JDK) on your computer. You can download the latest version from the official Oracle website:
+
 [https://www.java.com/en/download/help/linux_install.html](https://www.oracle.com/java/technologies/downloads/#jdk22-linux)
 
-# exercise 1 - Print your first message
+## exercise 1 - Print your first message
 
+Create a new file called Step01.java and implement the following. 
+
+```
+public class step01 {
+    public static void main(String[] args) {
+        System.out.println("Java is working!!");
+    }
+}
+```
+
+##
+
+Congratulations!! Now you know how to simply output a message.
