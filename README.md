@@ -18,7 +18,7 @@ Installing Java is very easy! You just need to install the Java Development Kit 
 
 Create a new file called Step01.java and implement the following. 
 
-```
+```ruby
 public class step01 {
     public static void main(String[] args) {
         System.out.println("Java is working!!");
