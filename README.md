@@ -18,7 +18,7 @@ Installing Java is very easy! You just need to install the Java Development Kit 
 
 Create a new file called Print.java
 
-In order to output a message you will need to create a "Print" class and a "main" method as follows. 
+In order to output a message you will need to create a ***Print*** class and a ***main*** method as follows. 
 
 ```java
 public class Print {
@@ -30,15 +30,15 @@ public class Print {
 
 ## exercise 2 - methods and attributes
 
-Congratulations!! You know how to simply output a message. Now you will have to implement a class called "Rectangle" with attributes "length" and "width". Write methods to calculate the area and perimeter of the rectangle and create instances of the Rectangle class in order to test this methods.
+Congratulations!! You know how to simply output a message. Now you will have to implement a class called ***Rectangle*** with attributes ***length*** and ***width***. Write methods to calculate the area and perimeter of the rectangle and create instances of the Rectangle class in order to test this methods.
 
 We will do it together step by step:
 
 ### step 1 - Create the Rectangle Class
 
-Create a Rectangle.java file
+Create a ***Rectangle.java*** file
 
-First, we will create a Java class named Rectangle. This class will have two private attributes: length and width.
+First, we will create a class named Rectangle. This class will have two private attributes: length and width.
 
 ```java
 public class Rectangle {
@@ -93,7 +93,7 @@ Now you will learn how to handle exceptions. For this exercise you will need to 
 
 ### step 1 - Import Necessary Packages
 
-Create a new file called ExceptionHandling.java
+Create a new file called ***ExceptionHandling.java***
 
 First, we need to import the required packages for handling exceptions and for user input.
 
@@ -104,7 +104,7 @@ import java.util.Scanner;
 
 ### step 2 - Write the Main Method
 
-Create the main method where we'll handle the user input and exceptions. We will use "scanner" class to read input from various sources like keyboard, files, etc. In the context of our exercise, we use Scanner to read input from the user via the keyboard. 
+Create the main method where we'll handle the user input and exceptions. We will use ***scanner*** class to read input from various sources like keyboard, files, etc. In the context of our exercise, we use Scanner to read input from the user via the keyboard. 
 
 ```java
 public class ExceptionHandling {
@@ -148,12 +148,57 @@ Result of division: 16
 
 ## Exercise 4 - File I/O
 
-In this last exercise you will have to code two programs as before. You need to create a input.txt and put whatever you want inside.
+In this exercise you will have to code two programs as before. You need to create a input.txt and put whatever you want inside.
 
 - Write a program that reads from a text file and prints its content to the console.
-- Write a program that writes user input to a "output.txt" file. If the data was written successfully to the file, It should print a message in the terminal.
+- Write a program that writes user input to a ***output.txt*** file. If the data was written successfully to the file, It should print a message in the terminal.
 
-This exercise you will do it completely by your own!! You will also need to manage error with exception as before. Here is a tip! Search about "File" and "PrintWriter" classes.
+This exercise you will do it completely by your own!! You will also need to manage error with exception as before. Here is a tip! Search about ***File*** and ***PrintWriter*** classes.
+
+## exercise 5 - Vehicle Inheritance
+
+For this last exercise, You have to create a program that models different types of vehicles. We'll have a base class ***Vehicle*** and two subclasses ***Car*** and ***Bike***. Each class will have a method displayInfo() to print information about the vehicle.
+
+### Vehicle class
+
+THis class will have the following attributes:
+
+- make (String)
+- model (String)
+- year (int)
+- fuelType (String)
+- Implement a method displayInfo() in the Vehicle class to display the information about the vehicle.
+
+Use the ***final*** keyword to prevent overriding the displayInfo() method in the Vehicle class.
+
+### Car class
+
+The Car class will be a subclass of Vehicle and will additionally have an attribute numDoors (int) and its own displayCarInfo() that should display displayInfo() method and numDoors.
+
+### Bike class
+
+The Bike class will also be a subclass of Vehicle and will additionally have an attribute engineType (String) and also its own displayBikeInfo() that should display displayInfo() method and engineType.
+
+
+As a tip, I recommend you to search about ***super*** and ***extends*** keywords.
+
+Your code should output like this:
+
+```
+Car Information:
+Make: Toyota
+Model: Camry
+Year: 2022
+Fuel Type: Gasoline
+Number of Doors: 4
+
+Bike Information:
+Make: Honda
+Model: CBR1000RR
+Year: 2021
+Fuel Type: Gasoline
+Engine Type: Inline Four
+```
 
 ## Ending
 
