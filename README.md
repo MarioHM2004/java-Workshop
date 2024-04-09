@@ -118,26 +118,9 @@ public class ExceptionHandling {
 }
 ```
 
-### step 3 - Handle ArithmeticException
+### step 3 -  Handle InputMismatchException
 
-Inside the main method, we will handle the ArithmeticException that may occur during division by zero. In order to achieve this we will use escanner.nextInt(), this method reads an integer input entered by the user. Scanner simplifies the process of reading user input and parsing it into appropriate data types.
-
-```java
-try {
-    System.out.print("Enter dividend: ");
-    int dividend = scanner.nextInt();
-    System.out.print("Enter divisor: ");
-    int divisor = scanner.nextInt();
-    int result = dividend / divisor;
-    System.out.println("Result of division: " + result);
-} catch (ArithmeticException e) {
-    System.out.println("Error: Division by zero");
-}
-```
-
-### step 4 - Handle InputMismatchException
-
-Similarly, we'll handle the InputMismatchException that may occur when the user enters a non-integer value.
+Inside the main method, we will handle the InputMismatchException that may occur when the user enters a non-integer value. In order to achieve this we will use escanner.nextInt(), this method reads an integer input entered by the user. Scanner simplifies the process of reading user input and parsing it into appropriate data types.
 
 ```java
 try {
@@ -149,4 +132,29 @@ try {
 }
 ```
 
-### step 5 - 
+### step 4 - Handle ArithmeticException
+
+Now we will handle the ArithmeticException that may occur during division by zero. Try to do it by yourself! 
+
+With previous steps all together it should output something like this:
+
+```
+Enter an integer: 28.5
+Error: Input is not an integer
+Enter dividend: 32
+Enter divisor: 2
+Result of division: 16
+```
+
+## Exercise 4 - File I/O
+
+In this last exercise you will have to code two programs as before. You need to create a input.txt and put whatever you want inside.
+
+- Write a program that reads from a text file and prints its content to the console.
+- Write a program that writes user input to a "output.txt" file. If the data was written successfully to the file, It should print a message in the terminal.
+
+This exercise you will do it completely by your own!! You will also need to manage error with exception as before. Here is a tip! Search about "File" and "PrintWriter" classes.
+
+## Ending
+
+If you have reached this point it means that you have done everything satisfactorily. Thank you for attending my workshop! I hope it has been useful to you.
