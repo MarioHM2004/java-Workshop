@@ -1,6 +1,6 @@
 # Introduction To Java
 
-Hello programmers!! Welcome to this "Introduction to Java" workshop. This workshop is designed to provide you with hands-on experience and practical knowledge of Java programming concepts. The workshop is suitable for beginners who are new to programming or those who have limited experience with Java. But If you already know java, don't worry!  It is also useful to review the basics of the language.
+Hello programmers!! Welcome to this "Introduction to Java" workshop. This workshop is designed to provide you with hands-on experience and practical knowledge of Java programming concepts. The workshop is suitable for beginners who are new to java or those who have limited experience with the language. But If you already know java, don't worry! It is also useful to review the basics of the language.
 
 ## What is Java?
 
