@@ -176,11 +176,11 @@ Use the ***final*** keyword to prevent overriding the displayInfo() method in th
 
 ### Car class
 
-The Car class will be a subclass of Vehicle and will additionally have an attribute numDoors (int) and its own displayCarInfo() that should display displayInfo() method and numDoors.
+The Car class will inherit from Vehicle and will additionally have an attribute numDoors (int) and its own displayCarInfo() that should display displayInfo() method and numDoors.
 
 ### Bike class
 
-The Bike class will also be a subclass of Vehicle and will additionally have an attribute engineType (String) and also its own displayBikeInfo() that should display displayInfo() method and engineType.
+The Bike class will also inherit from Vehicle and will additionally have an attribute engineType (String) and also its own displayBikeInfo() that should display displayInfo() method and engineType.
 
 
 As a tip, I recommend you to search about ***super*** and ***extends*** keywords.
