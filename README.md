@@ -163,13 +163,14 @@ Create a ***Main.java*** file.
 
 ### Vehicle class
 
-THis class will have the following attributes:
+This class will have the following attributes that must be initialized within the constructor, you should search about what a constructor is.
 
 - make (String)
 - model (String)
 - year (int)
 - fuelType (String)
-- Implement a method displayInfo() in the Vehicle class to display the information about the vehicle.
+
+Implement a method displayInfo() in the Vehicle class to display the information about the vehicle.
 
 Use the ***final*** keyword to prevent overriding the displayInfo() method in the Vehicle class.
 
